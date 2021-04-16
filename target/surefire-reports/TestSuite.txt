@@ -1,0 +1,130 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 6, Errors: 0, Skipped: 8, Time elapsed: 270.857 s <<< FAILURE! - in TestSuite
+Trendyol_App_Test.BasariliGiris.BeforeMethod  Time elapsed: 34.519 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20081ms.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20081ms.
+    at getResponseForW3CError (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+	at Trendyol_App_Test.BasariliGiris.BeforeMethod(BasariliGiris.java:86)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Trendyol_App_Test.BasariliGiris.BeforeMethod(BasariliGiris.java:86)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20081ms.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20081ms.
+    at getResponseForW3CError (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at Trendyol_App_Test.BasariliGiris.BeforeMethod(BasariliGiris.java:86)
+
+Trendyol_App_Test.YanlisEposta.BeforeMethod  Time elapsed: 20.446 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20274ms.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20274ms.
+    at getResponseForW3CError (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+	at Trendyol_App_Test.YanlisEposta.BeforeMethod(YanlisEposta.java:63)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Trendyol_App_Test.YanlisEposta.BeforeMethod(YanlisEposta.java:63)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20274ms.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20274ms.
+    at getResponseForW3CError (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at Trendyol_App_Test.YanlisEposta.BeforeMethod(YanlisEposta.java:63)
+
+Trendyol_App_Test.YanlisSifre.BeforeMethod  Time elapsed: 20.172 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20136ms.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20136ms.
+    at getResponseForW3CError (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+	at Trendyol_App_Test.YanlisSifre.BeforeMethod(YanlisSifre.java:64)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Trendyol_App_Test.YanlisSifre.BeforeMethod(YanlisSifre.java:64)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20136ms.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20136ms.
+    at getResponseForW3CError (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at Trendyol_App_Test.YanlisSifre.BeforeMethod(YanlisSifre.java:64)
+
+Trendyol_App_Test.YetersizKarakterliSifre.BeforeMethod  Time elapsed: 20.148 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20100ms.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20100ms.
+    at getResponseForW3CError (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+	at Trendyol_App_Test.YetersizKarakterliSifre.BeforeMethod(YetersizKarakterliSifre.java:64)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Trendyol_App_Test.YetersizKarakterliSifre.BeforeMethod(YetersizKarakterliSifre.java:64)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20100ms.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device in 20100ms.
+    at getResponseForW3CError (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Users\Ömer\AppData\Roaming\npm\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at Trendyol_App_Test.YetersizKarakterliSifre.BeforeMethod(YetersizKarakterliSifre.java:64)
+
+Trendyol_App_Test.FavorilereEkleme.favorilereEkleme[omer.sim95@gmail.com, omer1995, saat](1)  Time elapsed: 28.476 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.TextView[@text='Anasayfa']})
+	at Trendyol_App_Test.FavorilereEkleme.favorilereEkleme(FavorilereEkleme.java:61)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@21694e53 (tried for 1 second(s) with 500 milliseconds interval)
+	at Trendyol_App_Test.FavorilereEkleme.favorilereEkleme(FavorilereEkleme.java:61)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.TextView[@text='Anasayfa']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+	at Trendyol_App_Test.FavorilereEkleme.favorilereEkleme(FavorilereEkleme.java:61)
+
+Trendyol_App_Test.GirisYapmadanFavori.girisYapmadanFavori[saat](1)  Time elapsed: 36.127 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({By.xpath: //android.widget.Button[@text='GİRİŞ YAP']})
+	at Trendyol_App_Test.GirisYapmadanFavori.girisYapmadanFavori(GirisYapmadanFavori.java:57)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@58a55449 (tried for 1 second(s) with 500 milliseconds interval)
+	at Trendyol_App_Test.GirisYapmadanFavori.girisYapmadanFavori(GirisYapmadanFavori.java:57)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.chained({By.xpath: //android.widget.Button[@text='GİRİŞ YAP']})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-56SS79V', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_242-release'
+Driver info: driver.version: AndroidDriver
+	at Trendyol_App_Test.GirisYapmadanFavori.girisYapmadanFavori(GirisYapmadanFavori.java:57)
+

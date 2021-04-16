@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37082" started-at="2021-04-16T11:26:42 EET" finished-at="2021-04-16T11:27:19 EET">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="37082" started-at="2021-04-16T11:26:42 EET" finished-at="2021-04-16T11:27:19 EET">
+      <class name="Trendyol_App_Test.SepetToplamUcret">
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:Trendyol_App_Test.SepetToplamUcret@51c8530f]" name="BeforeMethod" is-config="true" duration-ms="17774" started-at="2021-04-16T11:26:42 EET" finished-at="2021-04-16T11:27:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="sepetToplamUcret(java.lang.String)[pri:0, instance:Trendyol_App_Test.SepetToplamUcret@51c8530f]" name="sepetToplamUcret" duration-ms="19226" started-at="2021-04-16T11:27:00 EET" finished-at="2021-04-16T11:27:19 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saat]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sepetToplamUcret -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:Trendyol_App_Test.SepetToplamUcret@51c8530f]" name="AfterMethod" is-config="true" duration-ms="52" started-at="2021-04-16T11:27:19 EET" finished-at="2021-04-16T11:27:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- Trendyol_App_Test.SepetToplamUcret -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="resources.Listeners"/>
+<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+<parameter name="gecerli_mail" value="omer.sim95@gmail.com"></parameter>
+<parameter name="gecerli_sifre" value="omer1995"></parameter>
+<parameter name="aranacak_esya" value="saat"></parameter>
+
+<test thread-count="5" name="Giris">
+    <classes>
+      <class name="Trendyol_App_Test.BasariliGiris"/>
+  	  <class name="Trendyol_App_Test.YanlisEposta"/>    
+      <class name="Trendyol_App_Test.YanlisSifre"/>   
+      <class name="Trendyol_App_Test.YetersizKarakterliSifre"/> 
+      <class name="Trendyol_App_Test.GirisNoInput"/>
+    </classes>
+    </test>
+  
+    
+     <test thread-count="5" name="Test">
+    <classes>
+	<class name="Trendyol_App_Test.SepetToplamUcret"/>
+	<class name="Trendyol_App_Test.FavorilereEkleme"/>
+      <class name="Trendyol_App_Test.GirisYapmadanFavori"/>
+      
+  	  
+       
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

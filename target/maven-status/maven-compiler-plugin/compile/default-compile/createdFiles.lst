@@ -1,0 +1,13 @@
+pageObjects\SepetimPage.class
+pageObjects\AramaPage.class
+pageObjects\HomePage.class
+pageObjects\CikisPage.class
+Trendyol_App_Test\Utilities.class
+Trendyol_App_Test\base.class
+resources\Listeners.class
+resources\ExtentReporterNG.class
+pageObjects\UrunDetayiPage.class
+pageObjects\HesapBilgilerimPage.class
+pageObjects\HesabimPage.class
+pageObjects\UrunlerPage.class
+pageObjects\FavorilerimPage.class
